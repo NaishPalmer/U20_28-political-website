@@ -1,0 +1,115 @@
+body {
+    color: white;
+    background-color: #282828;
+    margin: 5px;
+}
+
+a.button_container {
+    color: white;
+    text-decoration: none;
+}
+
+.button_container{
+    background-color: #353535;
+    padding: 10px 25px;
+}
+
+a {
+    color: lightblue;
+}
+
+.header {
+    text-align: center;
+}
+
+ul.navbar-parent{
+    list-style-type: none;
+    margin: 5px 0px 0px 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+#social-media-links {
+    float: right;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: white;
+    color: black;
+}
+
+a.button_container:hover {
+    background-color: white;
+    color: black; 
+}
+
+p.p1-footer {
+    text-align: center;
+}
+
+.first_grid {
+    border-top-style: solid;
+    border-width: 1px;
+}
+
+.second_grid {
+    border-top-style: solid;
+    border-width: 1px;   
+}
+
+.third_grid {
+    border-top-style: solid;
+    border-width: 1px;    
+}
+.fourth_grid {
+    border-top-style: solid;
+    border-width: 1px;
+    
+}
+.fifth_grid {
+    border-top-style: solid;
+    border-width: 1px;
+   
+}
+
+.active {
+    background-color:white;
+    color: black;
+}
+
+
+li.li-content {
+    float: none;
+}
+
+.video {
+    width: 750px;
+    height: 400px;
+    margin-bottom: 25px;
+}
+
+.video-content {
+    text-align: center;
+}
+
+.footer{
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+    
+}
+
+.footer-div {
+    display: inline-block;
+    position: relative;
+}

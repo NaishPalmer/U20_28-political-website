@@ -1,0 +1,80 @@
+<!-- These lines of code define the document type to the browser, and also other relevant information such as the stylesheet and Title used-->
+<!DOCTYPE html>
+<html lang="en">
+<title>Political Parties</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
+<link href="https://fonts.googleapis.com/css?family=Aleo" rel="stylesheet">
+<head>
+  <link rel="icon" type="image/png" sizes="32x32" href="Content/favicon-32x32.png"><!-- This creates a small icon at the top of the webpage to the left of the title.-->
+</head>
+<style>
+body {
+  font-family: 'Aleo', serif; /* This is a small piece of internal stylesheet of CSS for my website defining the font used within this webpage. */
+}
+</style>
+<body>
+
+<!-- Navigation Bar at the top of my web page for navigating between pages when clicked. -->
+<div class="top">
+  <ul class="navbar-parent"> <!--This is a class of an unordered list, comprised of list items which I used for my navigation items for each web page. -->  
+    <li><a href="index.html">Home</a></li>
+    <li><a href="General_Elections.html">General Elections</a></li>
+    <li><a href="Labour.html">Labour</a></li>
+    <li><a href="Conservative.html">Conservative</a></li>
+    <li><a href="UKIP.html">UKIP</a></li>
+    <li><a class="active" href="Green_Party.html">Green Party</a></li>
+    <li id="social-media-links"><a href="Social_Media_Links.html">Social Media Links</a></li>
+  </ul>
+</div>
+<!-- Header telling the user what this web page is about.-->
+<header class="header" style="padding:128px 16px ">
+  <h1 class="header-h1">Green Party</h1>
+  <p class="header-p1">This page is for information regarding the Green Party.</p>
+   <a href="#first_block" class="button_container">Get Started</a> <!-- This is a link that when clicked will move the web browser's location of the page to the first block of information.-->
+  </button>
+</header>
+
+<!-- First Grid telling the user what this web page is about.-->
+<div class="first_grid" id="first_block">
+  <div class="content">
+    <div class="video-content">
+      <h1>Green Party Video</h1>
+      <iframe class="video" src="https://www.youtube.com/embed/_RBXqDIGLF8"> <!-- This is a video made by each relevant political party.-->
+      </iframe>
+
+    </div>
+  </div>
+</div>
+<!-- Second Grid is for information regarding the relevant political party. -->
+<div class="second_grid" id="block" style="border-bottom-style: solid;">
+  <div class="content">
+      <h1>Overview</h1>
+      <p class="content-text">The Green Party of England and Wales (GPEW; Welsh: Plaid Werdd Cymru a Lloegr) is a green, left-wing political party in England and Wales. Headquartered in London, since September 2018, its Co-Leaders are Siân Berry and Jonathan Bartley. The Green Party has one Member of Parliament in the House of Commons, one representative in the House of Lords, and three Members of the European Parliament. It has various councillors in UK local government and two members of the London Assembly.
+      </p>
+      <p class="content-text">The party's ideology combines environmentalism with left-wing economic policies, including well-funded, locally controlled public services within the confines of a steady state economy, and it supports proportional representation.[16] It also takes a progressive approach to social policies such as civil liberties, animal rights, LGBT rights and drug policy reform. The party also believes strongly in nonviolence, basic income, a living wage, and democratic participation. The party comprises various regional divisions, including the semi-autonomous Wales Green Party. Internationally, the party is affiliated to the Global Greens and the European Green Party.
+      </p>
+      <p class="content-text">
+        The Green Party of England and Wales was established in 1990 alongside the Scottish Green Party and the Green Party in Northern Ireland through the division of the pre-existing Green Party, a group which had originally been established as the PEOPLE Party in 1973. Experiencing centralising reforms spearheaded by the Green 2000 group in the early 1990s, the party sought to emphasise growth in local governance, doing so throughout the 1990s. In 2010, the party gained its first MP in Lucas, who represents the constituency of Brighton Pavilion.
+      </p>
+  </div>
+</div>
+<!-- Footer with a JS script that displays a random quote from a famous politician, and also a link to the government's website. -->
+<footer class="footer"> 
+  <div class="quote">
+    <script src="JS/Rand_Quotes.js"></script>
+     </div>
+    
+    <br>
+    <div class="footer-div">
+    Powered By 
+   <br>
+   <a href="https://www.parliament.uk/" target="_blank"><img src="/Content/parliment_logo.png" height="20" width="100"> </a>  
+    </div>
+      
+  </footer>
+
+
+</body>
+</html>
