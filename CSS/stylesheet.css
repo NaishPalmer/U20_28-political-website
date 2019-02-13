@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Aleo');
+
 body {
     color: white;
     background-color: #282828;
     margin: 5px;
+    font-family: 'Aleo', serif;
 }
 
 a.button_container {
